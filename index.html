@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar -->
+    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Manage Users</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Manage Products</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="col-md-9 ml-sm-auto col-lg-10 px-4">
+      <h2>Admin Dashboard</h2>
+      <div class="row placeholders">
+        <div class="col-6 col-sm-3 placeholder">
+          <h4>Users</h4>
+          <span class="text-muted">Manage your users here</span>
+        </div>
+        <div class="col-6 col-sm-3 placeholder">
+          <h4>Products</h4>
+          <span class="text-muted">Manage products</span>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">User Portal</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Orders</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main role="main" class="container mt-4">
+    <h1>Welcome, User!</h1>
+    <p class="lead">This is your main dashboard where you can view orders, update your profile, and more.</p>
+  </main>
+</div>
+
+    
+</body>
+</html>
